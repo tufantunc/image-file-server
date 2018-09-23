@@ -62,7 +62,7 @@ function resizeImage(path, format, width, height, quality, res) {
     return readStream.pipe(transform);
 };
 
-app.all('*', function(err, req, res, next) {
+app.all('*', function(req, res, next) {
     var parsedUrl = req.url.split('/');
 
     var options;
