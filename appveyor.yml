@@ -1,7 +1,11 @@
-platform: x64
+# version format
+version: 1.0.{build}
+
 # Test against the latest version of this Node.js version
 environment:
   nodejs_version: "8"
+
+platform: x64
 
 # Install scripts. (runs after repo cloning)
 install:
