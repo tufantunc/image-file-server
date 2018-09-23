@@ -1,5 +1,7 @@
-# NodeJS Image File Server [![Build status](https://ci.appveyor.com/api/projects/status/gggupvhfo2emnfqu?svg=true)](https://ci.appveyor.com/project/tufantunc/image-file-server) [![Dependency Status](https://img.shields.io/david/tufantunc/image-file-server.svg)](https://david-dm.org/tufantunc/image-file-server)
+# NodeJS Image File Server [![Build status](https://ci.appveyor.com/api/projects/status/gggupvhfo2emnfqu?svg=true)](https://ci.appveyor.com/project/tufantunc/image-file-server) [![Dependency Status](https://img.shields.io/david/tufantunc/image-file-server.svg)](https://david-dm.org/tufantunc/image-file-server) [![Heroku badge](https://heroku-badges.herokuapp.com/?app=image-file-server)](https://image-file-server.herokuapp.com/i/demo/75/600x400/kapadokya/balonlar.jpg)
 Bu sunucu, Hürriyet'in imaj CDN'inde kullandığı, görsellerin url ile boyut ve görsel kalitesinin ayarlandığı yapıyı (realtime image optimization CDN) taklit eden bir imaj sunucusu oluşturur.
+
+[Test için heroku adresine gidin.](https://image-file-server.herokuapp.com/i/demo/75/600x400/kapadokya/balonlar.jpg)
 
 ## Amacı
 New York Times, Washington Post, Hürriyet gibi yoğun trafikli haber sitelerinin kullandığı görsel optimizasyon yapısını geliştirme ortamında taklit etmek. Bu sayede geliştirme sürecini hızlandırmayı planlıyor.
