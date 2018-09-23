@@ -1,4 +1,4 @@
-# NodeJS Image File Server
+# NodeJS Image File Server [![Build status](https://ci.appveyor.com/api/projects/status/gggupvhfo2emnfqu?svg=true)](https://ci.appveyor.com/project/tufantunc/image-file-server)
 Bu sunucu, Hürriyet'in imaj CDN'inde kullandığı, görsellerin url ile boyut ve görsel kalitesinin ayarlandığı yapıyı (realtime image optimization CDN) taklit eden bir imaj sunucusu oluşturur.
 
 ## Amacı
