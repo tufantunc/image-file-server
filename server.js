@@ -1,8 +1,8 @@
 const app = require('./app');
 const {appconfig} = require('./package');
 
-var ports = process.env.PORT || 8800;
+var ports = process.env.PORT || appconfig.port;
 
-app.listen(appconfig.port, function() {
+app.listen(ports, function() {
     console.log("Images server running on http://localhost:" + ports);
 });
