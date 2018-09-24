@@ -6,15 +6,13 @@ Bu sunucu, Hürriyet'in imaj CDN'inde kullandığı, görsellerin url ile boyut 
 ## Amacı
 New York Times, Washington Post, Hürriyet gibi yoğun trafikli haber sitelerinin kullandığı görsel optimizasyon yapısını geliştirme ortamında taklit etmek. Bu sayede geliştirme sürecini hızlandırmayı planlıyor.
 
-Örnek url'ler:
+Örnek url'ler (URL'lerdeki işaretli alanlar görsellerin özelliklerinin ayarlandığı değişkenleri gösteriyor.):
 
-NY Times: https://static01.nyt.com/images/2018/09/23/us/23kavanaugh-1/merlin_143378538_c8597935-70ce-4e4d-8ce4-f5e500d667ab-threeByTwoLargeAt2X.jpg?**quality=75**&auto=webp&disable=upscale&**width=1620**
+NY Times: https://static01.nyt.com/images/2018/09/23/us/23kavanaugh-1/merlin_143378538_c8597935-70ce-4e4d-8ce4-f5e500d667ab-threeByTwoLargeAt2X.jpg?`quality=75`&auto=webp&disable=upscale&`width=1620`
 
-Washinton Post: https://www.washingtonpost.com/resizer/5NZcol6Lxd0CKixi0bXZLxQwGsc=/**1248x832**/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/46R2T3E2JII6RKGYTNGBGKDNNM.jpg
+Washinton Post: https://www.washingtonpost.com/resizer/5NZcol6Lxd0CKixi0bXZLxQwGsc=/`1248x832`/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/46R2T3E2JII6RKGYTNGBGKDNNM.jpg
 
-Hürriyet: http://i.hurimg.com/i/hurriyet/**75**/**900x350**/5ba7b6e218c7731718ce6f13.jpg
-
-URL'lerdeki kalınla işaretli alanlar 
+Hürriyet: http://i.hurimg.com/i/hurriyet/`75`/`900x350`/5ba7b6e218c7731718ce6f13.jpg
 
 ## Sunucuyu Başlatmak
 Repoyu local'inize çektikten sonra ` npm install ` komutu ile gerekli paketlerin yüklenmesini sağlayın.
