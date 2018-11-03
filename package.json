@@ -4,12 +4,12 @@
   "description": "hurimg imaj sunucusunun url yapısını ve özelliklerini localde taklit eden nodejs sunucusu",
   "main": "app.js",
   "dependencies": {
-    "sharp": "^0.20.8",
-    "express": "^4.16.3"
+    "sharp": "^0.21.0",
+    "express": "^4.16.4"
   },
   "devDependencies": {
     "jest": "^23.6.0",
-    "nodemon": "^1.18.4",
+    "nodemon": "^1.18.5",
     "supertest": "^3.3.0"
   },
   "scripts": {
