@@ -18,7 +18,7 @@ module.exports = (path, format, width, height, quality, res) => {
     }
 
     if (width || height) {
-        transform = transform.resize(width, height).crop(sharp.strategy.entropy);
+        transform = transform.resize(width, height, {fit: "cover"});
     }
 
     return readStream.pipe(transform);

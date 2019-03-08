@@ -10,12 +10,16 @@ app.all('*', function(req, res, next) {
         res.send('Image file server');
     } else {
         var parsedUrl = req.url.split('/');
-        var options;
-        options = generateOptionsFromUrl(parsedUrl, res, __dirname);
+        if(parsedUrl.length > 5) {
+            var options;
+            options = generateOptionsFromUrl(parsedUrl, res, __dirname);
 
-        res.type(`image/${options.format}`);
+            res.type(`image/${options.format}`);
 
-        resizeImage(options.path, options.format, options.size.width, options.size.height, options.quality, res).pipe(res);
+            resizeImage(options.path, options.format, options.size.width, options.size.height, options.quality, res).pipe(res);
+        } else {
+            res.status(404).send("Image not found!");
+        }
     }
 });
 
