@@ -26,7 +26,7 @@ describe('generate options from url component', () => {
 
     it('should return path', (done) => {
         expect(options.hasOwnProperty('path')).toBeTruthy();
-        expect(options.path).toBe(path.resolve(__dirname, '..\\demo\\kapadokya\\balonlar.jpg'));
+        expect(options.path).toBe(path.resolve(__dirname, '../demo/kapadokya/balonlar.jpg'));
         done();
     });
 

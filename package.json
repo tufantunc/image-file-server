@@ -1,15 +1,15 @@
 {
   "name": "hurimg-local-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "hurimg imaj sunucusunun url yapısını ve özelliklerini localde taklit eden nodejs sunucusu",
   "main": "app.js",
   "dependencies": {
-    "sharp": "^0.22.0",
-    "express": "^4.16.4"
+    "sharp": "^0.24.0",
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "jest": "^24.5.0",
-    "nodemon": "^1.18.10",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
   },
   "scripts": {

@@ -3,7 +3,7 @@ version: 1.0.{build}
 
 # Test against the latest version of this Node.js version
 environment:
-  nodejs_version: "8"
+  nodejs_version: "12"
 
 platform: x64
 
