@@ -18,6 +18,10 @@
     "test": "jest",
     "test:dev": "jest --watch"
   },
+  "resolutions": {
+    "**/**/lodash": "^4.17.12",
+    "**/**/set-value": "^2.0.1"
+  },
   "author": "Tufan Tunç",
   "license": "MIT",
   "appconfig": {
